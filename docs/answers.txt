@@ -1,3 +1,73 @@
+a) $ git push
+	Enumerating objects: 9, done.
+	Counting objects: 100% (9/9), done.
+	Delta compression using up to 4 threads
+	Compressing objects: 100% (5/5), done.
+	Writing objects: 100% (7/7), 819 bytes | 81.00 KiB/s, done.
+	Total 7 (delta 2), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+	To https://github.com/sd16g/assignment2.git
+   f4975e5..f44ab8c  master -> master
+
+b) 9 commits have been committed between me and Esteban, I used the 
+	"git log" command
+
+c) The last time .gitignore was modified was
+	Wed, 9/25 at 6:13 by Esteban
+
+	commit e424a923e80da4772ca789591ef3326230062a71
+	Author: Esteban Parra <estebanpr014@gmail.com>
+	Date:   Wed Sep 25 18:13:30 2019 -0400
+
+    -> Tracking .gitignore
+
+	I used "$ git log -- .gitignore"
+
+d) Two reasons for using branches are
+	isolating development activities among 
+	the team (different branches for development/bug fixes)
+	and also to make sure code changes are verified before delivering
+	them to other developers.
+
+e) The difference between git log and git status is
+	git log shows all previous commits done to
+	the repository while git status displays the
+	state of the working directory/repository. Git
+	status doesn't show any information on previous
+	commits.
+
+f) To see commits where "Vehicle.h" was one of the
+	committed files I would use the command
+	"git log -- Vehicle.h"
+
+g) git log --grep file
 
 
+h) 
+  I) Inheritance is the mechanism of basing an object
+	or class based on another object or class, to
+	retain similar implementation
+ II) Polymorphism is the ability of an object to take
+	on many forms. There are 2 types, dynamic and static,
+	and allows parent class references to refer to a child
+	class object
+ III) Encapsulation is the process of wrapping up data
+	and information in one single unit/location. It
+	is binding together the data and the functions
+	that manipulate that data.
 
+ i) The main difference is where the push and pulls.
+	Integration Manager Workflow has developers pull from the
+	blessed repo, and pushes to their own public repo. The
+	Dictator/Lieutenants workflow has a blessed repo that
+	developers pull from, and then developers push to
+	a Lieutenents repo which merges changes and solves
+	conflicts. The Dictator then merges the Lieutenants 
+	changes and commits to the blessed repo.
+ 
+ j) A team of 100 developers would benefit from Dictator
+	and Lieutenant Workflow because it allows
+	several stages of conflict resolution
+	before committing to the central repo. This
+	would help reduce the number of errors that the
+	actual developers need to resolve.
