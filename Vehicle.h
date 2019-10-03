@@ -6,6 +6,7 @@
 #define DRIVINGSIMULATOR_VEHICLE_H
 
 #include <string>     // std::string, std::stoi
+#include <cmath>
 
 using namespace std;
 
