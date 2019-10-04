@@ -71,3 +71,9 @@ h)
 	before committing to the central repo. This
 	would help reduce the number of errors that the
 	actual developers need to resolve.
+
+5) The Driving simulator uses both polymorphism and encapsulation. It uses polymorphism
+	in that it has super and child classes, the "Vehicle" class takes on
+	many forms such as Powered Vehicles, Skateboards, etc. Encapsulation is
+	present in that each class contains private data, as well as functions within
+	itself.
